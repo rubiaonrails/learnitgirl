@@ -1,14 +1,13 @@
-Feature: Create New Skill Swap
+Feature: Search Categories 
 
-In order to be able interact with other users and exchnage skills
+In order to be able to find skill swap 
 As a user
-I want to be able to create a skill swap
+I want to be able search through skill swap categories
 
-Scenario: sucessfully_create_skillswap
+Scenario: sucessfully_search_skill_categories
 
- Given that user is logged in
- And user wants to exchange a skill
- Then user clicks on create a new skill swap
- And user completes the necessary fields 
- Then a new skill swap is created
+ Given that user wants to find a specific skillswap 
+ And user clicks on search option
+ Then user is presented with a list of skillswap categories
+ 
  
